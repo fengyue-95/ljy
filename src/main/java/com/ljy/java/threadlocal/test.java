@@ -1,4 +1,4 @@
-package com.ljy;
+package com.ljy.java.threadlocal;
 
 /**
  * @author fengyue
