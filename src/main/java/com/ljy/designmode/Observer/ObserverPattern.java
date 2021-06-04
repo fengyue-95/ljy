@@ -1,5 +1,7 @@
 package com.ljy.designmode.Observer;
 
+import java.lang.reflect.Proxy;
+
 /**
  * @author fengyue
  * @date 2021/6/3

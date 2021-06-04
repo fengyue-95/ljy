@@ -24,17 +24,18 @@ public class test {
         //    e.printStackTrace();
         //}
 
-        //new Thread(new Runnable() {
-        //    @Override public void run() {
-        //        local.set("zhan高三");
-        //    }
-        //}).start();
-        //
-        //new Thread(new Runnable() {
-        //    @Override public void run() {
-        //        local.set("zhan高二");
-        //    }
-        //}).start();
+        new Thread(new Runnable() {
+            @Override public void run() {
+                local.set("zhan高三");
+            }
+        }).start();
+
+        new Thread(new Runnable() {
+            @Override public void run() {
+                local.set("zhan高二");
+            }
+        }).start();
+        local.get();
         for(int i=0;i<10000;i++){
             local.set(Math.random()+"ha");
         }
