@@ -1,4 +1,4 @@
-package com.ljy.leetcode;
+package com.ljy.leetcode.num51to100;
 
 import java.util.ArrayList;
 import java.util.List;

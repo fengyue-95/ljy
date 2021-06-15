@@ -1,4 +1,4 @@
-package com.ljy.leetcode;
+package com.ljy.leetcode.num1to50;
 
 /**
  * @author fengyue

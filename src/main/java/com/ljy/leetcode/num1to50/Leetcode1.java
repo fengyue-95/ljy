@@ -1,4 +1,4 @@
-package com.ljy.leetcode;
+package com.ljy.leetcode.num1to50;
 
 import java.util.HashMap;
 import java.util.Map;
