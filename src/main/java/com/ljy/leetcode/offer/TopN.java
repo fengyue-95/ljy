@@ -1,4 +1,4 @@
-package com.ljy.leetcode;
+package com.ljy.leetcode.offer;
 
 import java.util.Random;
 
