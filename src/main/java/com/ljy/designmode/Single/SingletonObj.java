@@ -15,32 +15,12 @@ public class SingletonObj {
         if (instance == null) {
             synchronized (SingletonObj.class) {
                 if (instance == null) {
-
                     instance = new SingletonObj();
                 }
-
             }
         }
         return instance;
     }
 
-    // private enum SingleTonObject {
-    //
-    // INSTANCE;
-    //
-    // private final Singleton instance;
-    //
-    // SingleTonObject(){
-    // instance = new Singleton();
-    // }
-    //
-    // public Singleton getInstance() {
-    // return instance;
-    //
-    // }
-    // }
-    //
-    // public static Singleton getInstance(){
-    // return SingleTonObject.INSTANCE.getInstance();
-    // }
+
 }
