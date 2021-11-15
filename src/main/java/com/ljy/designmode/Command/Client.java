@@ -3,6 +3,8 @@ package com.ljy.designmode.Command;
 /**
  * @author fengyue
  * @date 2021/11/15
+ *
+ * 命令模式
  */
 public class Client {
 
