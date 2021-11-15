@@ -1,8 +1,8 @@
-package com.ljy.designmode.Proxy.cglib;
+package com.ljy.other.Proxy.cglib;
 
 import java.lang.reflect.Method;
 
-import com.ljy.designmode.Proxy.jdk.ProxySubject;
+import com.ljy.other.Proxy.jdk.ProxySubject;
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;

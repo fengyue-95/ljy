@@ -1,4 +1,4 @@
-package com.ljy.designmode.Proxy.jdk;
+package com.ljy.other.Proxy.jdk;
 
 /**
  * @author fengyue

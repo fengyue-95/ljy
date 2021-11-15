@@ -27,6 +27,7 @@ public class Mail implements Cloneable{
     protected Mail clone() {
         Mail cloneMail=null;
         try {
+            //浅复制
             cloneMail = (Mail)super.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();

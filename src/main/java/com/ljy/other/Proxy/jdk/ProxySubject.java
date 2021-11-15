@@ -1,4 +1,4 @@
-package com.ljy.designmode.Proxy.jdk;
+package com.ljy.other.Proxy.jdk;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
