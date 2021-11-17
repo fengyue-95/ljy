@@ -133,4 +133,24 @@ public class GeneratedKeyInterceptor implements Interceptor {
 
     @Override
     public void setProperties(Properties properties) {}
+
+
+//    <?xml version="1.0" encoding="UTF-8" ?>
+//<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+//<configuration>
+//    <plugins>
+//        <plugin interceptor="xx.xxx.xxx.xxx.GeneratedKeyInterceptor"></plugin>
+//        <plugin interceptor="xx.xxx.xxx.xxx.ReplaceEntityRoleInterceptor"></plugin>
+//    </plugins>
+//
+//</configuration>
+
+
+    //<!-- spring和MyBatis完美整合，不需要mybatis的配置映射文件 -->
+	//<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+	//	<property name="configLocation">
+	//		<value>classpath:mybatis-config-ext.xml</value>
+	//	</property>
+    //
+	//</bean>
 }
